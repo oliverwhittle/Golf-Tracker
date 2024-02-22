@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=1070, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/7dd35e3e4c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css"></link>
+  <title>Putting Tracker</title>
+  <link rel="icon" type="image/x-icon" href="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/512/external-golf-golf-flaticons-lineal-color-flat-icons-17.png">
+</head>
+<body>
+    <button type="button" id="clear"><i class="fa-solid fa-golf-ball-tee"></i></button>
+      <div class="buttonHolder">
+        <button type="button" value="L" class="shotDirection"><i class="fa-solid fa-arrow-left"></i><p>Left</p></button>
+        <button type="button" value="S" class="shotDirection"><i class="fa-solid fa-angles-up"></i><p>Straight</p></button>
+        <button type="button" value="R" class="shotDirection"><i class="fa-solid fa-arrow-right"></i><p>Right</p></button>
+
+        <button type="button" value="-1" class="distance"><i class="fa-solid fa-arrow-down"></i><p>Short</p></button>
+        <button type="button" value="0" class="distance"><i class="fa-solid fa-flag"></i><p>In hole</p></button>
+        <button type="button" value="1" class="distance"><i class="fa-solid fa-arrow-up"></i><p>Long</p></button>
+      </div>
+      <button type="button" id="submit_shot">Submit Shot</button>
+      <div class="graph-container">
+        <div id="myChart"></div>
+      </div>
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

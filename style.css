@@ -1,0 +1,92 @@
+@media (width < 1071px) {
+    body {
+        background-image: url('https://getwallpapers.com/wallpaper/full/1/5/a/288023.jpg');
+        background-size: 1070px 713px;
+        background-repeat: no-repeat;
+        background-color: green;
+    }
+}
+
+@media (width >= 1071px) {
+    body {
+        background-color: green;
+    }
+}
+
+i {
+    font-size: 100px;
+}
+
+p {
+    font-size: 24px;
+}
+
+#clear {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+#clear i{
+    font-size: 36px;
+    width:40px;
+    height:40px;
+    position: fixed;
+    top: 1.5%;
+    left: 2%;
+}
+
+.graph-container {
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.buttonHolder {
+    position: fixed;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    gap: 0px 100px;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 300px);
+}
+
+.active {
+    background-color: red;
+    width:200px;
+    height:250px;
+    border-radius: 45px;
+    border: 0px;
+}
+
+#submit_shot {
+    position: fixed;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width:600px;
+    height:250px;
+    border-radius: 45px;
+    border: 0px;
+    text-align: center;
+    font-size: 80px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.distance:not(.active),
+.shotDirection:not(.active) {
+    background-color: white;
+    width:200px;
+    height:250px;
+    border-radius: 45px;
+    border: 0px;
+}
