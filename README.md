@@ -1,6 +1,6 @@
 # ⛳ Golf Tracker
 
-A simple web app to track golf putts and visualize results with graph.
+A simple web app to track golf putts and visualise results with a graph.
 
 ---
 
@@ -22,5 +22,5 @@ A simple web app to track golf putts and visualize results with graph.
 ## 🚀 How to Run
 
   ```bash
-  git clone https://github.com/oliverwhittle/APP-Assignment.git
-  cd APP-Assignment
+  git clone https://github.com/oliverwhittle/Golf-Tracker.git
+  cd Golf-Tracker
